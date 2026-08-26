@@ -18,7 +18,9 @@ import org.junit.runner.RunWith;
 // HTML -> html report generate karta hain target folder me
     plugin = { "pretty", "html:target/cucumber-report.html",
             "json:target/cucumber.json",
-            "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" },
+            "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+            "junit:target/cucumber.xml"
+    },
 
  monochrome = true,
 

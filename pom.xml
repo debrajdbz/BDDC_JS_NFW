@@ -82,16 +82,13 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.5.5</version>
         <configuration>
-          <includes>**/runner/*Runner.java</includes>
-<!--          Breakdown of the pattern:-->
-<!--          - `**/` → “any number of directories (including none)”-->
-<!--          - `runner/` → a directory literally named `runner`-->
-<!--          - `*Runner.java` → **any filename that ends with `Runner.java`**, with any prefix (including a single word or multiple characters) before `Runner`-->
-
-          <parallel>methods</parallel>
-          <threadCount>10</threadCount>
+          <includes>Sl_TestRunner.java</includes>
+          <!--<parallel>methods</parallel>-->
+          <!--<threadCount>10</threadCount>-->
         </configuration>
       </plugin>
     </plugins>
+
+
   </build>
 </project>

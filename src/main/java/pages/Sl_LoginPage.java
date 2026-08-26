@@ -35,7 +35,7 @@ public class Sl_LoginPage extends BaseClass {
     @FindBy(id = "login-button")
     WebElement login_button;
 
-    @FindBy(xpath = "//h3[@data-test='error'123]")
+    @FindBy(xpath = "//h3[@data-test='error']")
     WebElement errorMessage;
 
     //To put Username
