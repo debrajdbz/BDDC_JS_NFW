@@ -108,6 +108,8 @@ public class BaseClass {
         }
     }
 
+    //Automated git push -> trigger Gihub web hook -> jenkins
+
 
 
 
