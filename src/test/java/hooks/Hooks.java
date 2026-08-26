@@ -11,6 +11,8 @@ import java.nio.file.Files;
 
 public class Hooks extends BaseClass {
 
+    //This Line is for testing commit working or not & visible on the commit history locally
+
     @Before //Common before all scenario
     public void setup(Scenario scenario) {
 
